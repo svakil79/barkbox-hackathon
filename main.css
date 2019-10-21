@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
 body {
     position: relative;
 }
 
 nav {
     position: fixed;
-    bottom:0;
+    bottom: 0;
     height: 150px;
     width: 100%;
     font-size: 30px;
@@ -27,10 +32,36 @@ nav {
     color: #0080ff;
 }
 
-section.section-header {
+section.page-header {
     position: fixed;
     top: 0;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    background-color: #e6f2ff;
+}
+.page-header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-header .notifications {
+    font-size: 50px;
+    color: royalblue;
+}
+
+.page-header .title {
+    font-size: 4em;
+    font-family: 'Abel';
+}
+
+.avatar {
+    border-radius: 37.5px;
+    height: 75px;
 }
