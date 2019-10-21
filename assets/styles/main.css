@@ -22,6 +22,7 @@ section.page-header {
     background-color: #e6f2ff;
     background-color: #0033cc;
     color: white;
+    z-index: 100;
 }
 .page-header div {
     display: flex;
@@ -78,6 +79,76 @@ section.new-post {
     font-size: 50px;
 }
 
+/***  posts *****/
+.posts {
+    position: relative;
+    top: 150px;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+article .author {
+    display: flex;
+    height: 100px;
+    justify-content: flex-start;
+}
+
+article .author .avatar-zone {
+  flex-basis: 20%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.author .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.author .title .name {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.author .title .sub-title {
+    font-size: 20px;
+    color: grey
+}
+
+.posts .graphic img {
+    width: 85%;
+}
+
+.posts .content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.posts .footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+
+}
+
+.footer .activity {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 40px
+}
+
+.activity i {
+    font-size: 60px; 
+}
+
+
+
+
 
 
 /* Bottom navigation menu */
@@ -95,6 +166,7 @@ nav {
     border-top: 1px solid gray;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
+    background-color: white
 }
 
 .nav-item {
