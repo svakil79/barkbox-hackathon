@@ -106,8 +106,9 @@ article .author .avatar-zone {
 }
 
 .author .title .name {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .author .title .sub-title {
@@ -116,14 +117,14 @@ article .author .avatar-zone {
 }
 
 .posts .graphic img {
-    width: 85%;
+    width: 100%;
 }
 
 .posts .content {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 
@@ -132,6 +133,9 @@ article .author .avatar-zone {
     justify-content: center;
     width: 100%;
     height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
 
 }
 
@@ -144,6 +148,18 @@ article .author .avatar-zone {
 
 .activity i {
     font-size: 60px; 
+}
+
+.activity .fa-heart {
+    color: red
+}
+.footer .follow {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: black;
 }
 
 
