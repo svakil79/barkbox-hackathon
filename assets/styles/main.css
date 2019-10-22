@@ -86,7 +86,9 @@ section.new-post {
     overflow-y: scroll;
     text-align: center;
 }
-
+.posts article:last-child {
+    margin-bottom:150px;
+}
 article .author {
     display: flex;
     height: 100px;
@@ -121,8 +123,7 @@ article .author .avatar-zone {
 }
 
 .posts .content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     text-align: center;
     font-size: 1.5em;
 }
